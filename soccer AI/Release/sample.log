@@ -1,0 +1,74 @@
+﻿2018/06/01 13:50:27 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\yukin\Desktop\shoot - コピー\sample.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Release\sample.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt baseGameEntity.cpp cgdi.cpp debugconsole.cpp entityManager.cpp fieldPlayer.cpp fieldPlayerStates.cpp framecounter.cpp goalKeeper.cpp goalKeeperStates.cpp iniFileLoaderBase.cpp main.cpp messageDispatcher.cpp paramLoader.cpp playerBase.cpp precisionTimer.cpp soccerBall.cpp soccerPitch.cpp soccerTeam.cpp steeringBehaviors.cpp supportSpotCalculator.cpp teamStates.cpp vector2D.cpp windowUtils.cpp
+         baseGameEntity.cpp
+         cgdi.cpp
+         debugconsole.cpp
+         entityManager.cpp
+         fieldPlayer.cpp
+         fieldPlayerStates.cpp
+         framecounter.cpp
+         goalKeeper.cpp
+         goalKeeperStates.cpp
+         iniFileLoaderBase.cpp
+     1>iniFileLoaderBase.cpp(28): warning C4305: '引数' : 'int' から 'char' へ切り詰めます。
+     1>iniFileLoaderBase.cpp(28): warning C4309: '引数' : 定数値が切り捨てられました。
+     1>iniFileLoaderBase.cpp(82): warning C4129: ';' : エスケープ シーケンスとして正しく認識されませんでした。
+     1>iniFileLoaderBase.cpp(138): warning C4129: ';' : エスケープ シーケンスとして正しく認識されませんでした。
+         main.cpp
+         messageDispatcher.cpp
+         paramLoader.cpp
+         playerBase.cpp
+         precisionTimer.cpp
+         soccerBall.cpp
+         soccerPitch.cpp
+         soccerTeam.cpp
+         steeringBehaviors.cpp
+         supportSpotCalculator.cpp
+         コンパイル中...
+         teamStates.cpp
+         vector2D.cpp
+         windowUtils.cpp
+       ResourceCompile:
+         すべての出力が最新のものです。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\yukin\Desktop\shoot - コピー\Release\sample.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\sample.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\yukin\Desktop\shoot - コピー\Release\sample.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\yukin\Desktop\shoot - コピー\Release\sample.lib" /MACHINE:X86 Release\Script1.res
+         Release\baseGameEntity.obj
+         Release\cgdi.obj
+         Release\debugconsole.obj
+         Release\entityManager.obj
+         Release\fieldPlayer.obj
+         Release\fieldPlayerStates.obj
+         Release\framecounter.obj
+         Release\goalKeeper.obj
+         Release\goalKeeperStates.obj
+         Release\iniFileLoaderBase.obj
+         Release\main.obj
+         Release\messageDispatcher.obj
+         Release\paramLoader.obj
+         Release\playerBase.obj
+         Release\precisionTimer.obj
+         Release\soccerBall.obj
+         Release\soccerPitch.obj
+         Release\soccerTeam.obj
+         Release\steeringBehaviors.obj
+         Release\supportSpotCalculator.obj
+         Release\teamStates.obj
+         Release\vector2D.obj
+         Release\windowUtils.obj
+         コード生成しています。
+         コード生成が終了しました。
+         sample.vcxproj -> C:\Users\yukin\Desktop\shoot - コピー\Release\sample.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\yukin\Desktop\shoot - コピー\Release\sample.exe;#1" /manifest Release\sample.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         ファイル "Release\sample.unsuccessfulbuild" を削除しています。
+         "Release\sample.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\Users\yukin\Desktop\shoot - コピー\sample.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:21.92

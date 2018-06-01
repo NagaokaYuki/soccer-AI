@@ -1,0 +1,61 @@
+﻿2017/09/28 12:17:16 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\yukin\Desktop\Nagaoka Yuki\3年\前期\GM31\2017_09_07_GM31_MOTION\sample.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Debug\sample.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt model.cpp
+         model.cpp
+     1>c:\users\yukin\desktop\nagaoka yuki\3年\前期\gm31\2017_09_07_gm31_motion\model.cpp(688): warning C4244: '引数' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\users\yukin\desktop\nagaoka yuki\3年\前期\gm31\2017_09_07_gm31_motion\model.cpp(688): warning C4244: '引数' : 'float' から 'int' への変換です。データが失われる可能性があります。
+       ManifestResourceCompile:
+         すべての出力が最新のものです。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\yukin\Desktop\Nagaoka Yuki\3年\前期\GM31\2017_09_07_GM31_MOTION\\sampleDebug.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\sampleDebug.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\yukin\Desktop\Nagaoka Yuki\3年\前期\GM31\2017_09_07_GM31_MOTION\sampleDebug.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\yukin\Desktop\Nagaoka Yuki\3年\前期\GM31\2017_09_07_GM31_MOTION\\sampleDebug.lib" /MACHINE:X86 Debug\sampleDebug.exe.embed.manifest.res
+         Debug\bg.obj
+         Debug\billboard.obj
+         Debug\camera.obj
+         Debug\debug.obj
+         Debug\emitter.obj
+         Debug\emitterbullet.obj
+         Debug\enemy.obj
+         Debug\enemyboss.obj
+         Debug\input.obj
+         Debug\item.obj
+         Debug\life.obj
+         Debug\manager.obj
+         Debug\meshfield.obj
+         Debug\light.obj
+         Debug\main.obj
+         Debug\meshskydome.obj
+         Debug\meshwall.obj
+         Debug\modegame.obj
+         Debug\model.obj
+         Debug\moderesult.obj
+         Debug\modetitle.obj
+         Debug\number.obj
+         Debug\particle.obj
+         Debug\particlebullet.obj
+         Debug\polygon2D.obj
+         Debug\polygon3D.obj
+         Debug\position.obj
+         Debug\renderer.obj
+         Debug\reticle.obj
+         Debug\scene.obj
+         Debug\scene2D.obj
+         Debug\scene3D.obj
+         Debug\score.obj
+         Debug\sound.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\sampleDebug.exe.embed.manifest" /manifest Debug\sampleDebug.exe.intermediate.manifest
+         すべての出力が最新のものです。
+       LinkEmbedManifest:
+         すべての出力が最新のものです。
+         sample.vcxproj -> C:\Users\yukin\Desktop\Nagaoka Yuki\3年\前期\GM31\2017_09_07_GM31_MOTION\\sampleDebug.exe
+       FinalizeBuildStatus:
+         ファイル "Debug\sample.unsuccessfulbuild" を削除しています。
+         "Debug\sample.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\Users\yukin\Desktop\Nagaoka Yuki\3年\前期\GM31\2017_09_07_GM31_MOTION\sample.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:01.32

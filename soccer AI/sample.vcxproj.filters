@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Main">
+      <UniqueIdentifier>{b3811301-f47f-48e7-8a3b-06fbef0e2243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Main">
+      <UniqueIdentifier>{f88282c8-a2e1-45e0-9563-9d7f71b85f14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\common">
+      <UniqueIdentifier>{d8a724e0-e9de-40f0-9e81-651390e6e000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\common">
+      <UniqueIdentifier>{102c3ea2-7e77-4609-840d-8173b74210ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems">
+      <UniqueIdentifier>{91fb74ce-32c6-4914-b9dc-d4cad598bd61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messaging">
+      <UniqueIdentifier>{1e6e8738-c190-46d0-a610-61d43bfbedc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States and State Machine">
+      <UniqueIdentifier>{b684ed64-7874-45dc-aa2e-b093a9ceffcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity related">
+      <UniqueIdentifier>{7c457dd8-4481-4677-aa17-da9591648faf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="cgdi.cpp">
+      <Filter>ソース ファイル\common</Filter>
+    </ClCompile>
+    <ClCompile Include="debugconsole.cpp">
+      <Filter>ソース ファイル\common</Filter>
+    </ClCompile>
+    <ClCompile Include="framecounter.cpp">
+      <Filter>ソース ファイル\common</Filter>
+    </ClCompile>
+    <ClCompile Include="iniFileLoaderBase.cpp">
+      <Filter>ソース ファイル\common</Filter>
+    </ClCompile>
+    <ClCompile Include="precisionTimer.cpp">
+      <Filter>ソース ファイル\common</Filter>
+    </ClCompile>
+    <ClCompile Include="vector2D.cpp">
+      <Filter>ソース ファイル\common</Filter>
+    </ClCompile>
+    <ClCompile Include="windowUtils.cpp">
+      <Filter>ソース ファイル\common</Filter>
+    </ClCompile>
+    <ClCompile Include="messageDispatcher.cpp">
+      <Filter>Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="paramLoader.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="soccerPitch.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="soccerTeam.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="steeringBehaviors.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="supportSpotCalculator.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="fieldPlayerStates.cpp">
+      <Filter>States and State Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="goalKeeperStates.cpp">
+      <Filter>States and State Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="teamStates.cpp">
+      <Filter>States and State Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="baseGameEntity.cpp">
+      <Filter>Entity related</Filter>
+    </ClCompile>
+    <ClCompile Include="entityManager.cpp">
+      <Filter>Entity related</Filter>
+    </ClCompile>
+    <ClCompile Include="fieldPlayer.cpp">
+      <Filter>Entity related</Filter>
+    </ClCompile>
+    <ClCompile Include="goalKeeper.cpp">
+      <Filter>Entity related</Filter>
+    </ClCompile>
+    <ClCompile Include="playerBase.cpp">
+      <Filter>Entity related</Filter>
+    </ClCompile>
+    <ClCompile Include="soccerBall.cpp">
+      <Filter>Entity related</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="autolist.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C2DMatrix.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="cgdi.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="frameCounter.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="PrecisionTimer.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="region.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="regulator.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="transformations.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2D.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="wall2D.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="debugconsole.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="iniFileLoaderBase.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="windowUtils.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="goal.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="paramLoader.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="soccerPitch.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="soccerTeam.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="steeringBehaviors.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="supportSpotCalculator.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="messageDispatcher.h">
+      <Filter>Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="telegram.h">
+      <Filter>Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>リソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="state.h">
+      <Filter>States and State Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="stateMachine.h">
+      <Filter>States and State Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="fieldPlayerStates.h">
+      <Filter>States and State Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="teamStates.h">
+      <Filter>States and State Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="goalKeeperStates.h">
+      <Filter>States and State Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="soccerMessages.h">
+      <Filter>Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="entityFunctionTemplates.h">
+      <Filter>Entity related</Filter>
+    </ClInclude>
+    <ClInclude Include="baseGameEntity.h">
+      <Filter>Entity related</Filter>
+    </ClInclude>
+    <ClInclude Include="entityManager.h">
+      <Filter>Entity related</Filter>
+    </ClInclude>
+    <ClInclude Include="fieldPlayer.h">
+      <Filter>Entity related</Filter>
+    </ClInclude>
+    <ClInclude Include="goalKeeper.h">
+      <Filter>Entity related</Filter>
+    </ClInclude>
+    <ClInclude Include="movingEntity.h">
+      <Filter>Entity related</Filter>
+    </ClInclude>
+    <ClInclude Include="playerBase.h">
+      <Filter>Entity related</Filter>
+    </ClInclude>
+    <ClInclude Include="soccerBall.h">
+      <Filter>Entity related</Filter>
+    </ClInclude>
+    <ClInclude Include="stream_Utility_Functions.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Script1.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Params.ini">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon1.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+</Project>
